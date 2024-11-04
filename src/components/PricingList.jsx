@@ -10,13 +10,13 @@ const PricingList = () => {
           key={item.id}
           className="my-4 h-full w-[19rem] rounded-[2rem] border border-n-6 bg-n-8 px-6 py-8 max-lg:w-full lg:w-auto [&>h4]:first:text-color-2 [&>h4]:last:text-color-3 [&>h4]:even:text-color-1"
         >
-          <h4 className="h4 mb-4">{item.title}</h4>
+          <h4 className="h4 mb-4 max-lg:text-center">{item.title}</h4>
 
-          <p className="body-2 mb-3 min-h-[4rem] text-n-1/50">
+          <p className="body-2 mb-3 min-h-[4rem] text-n-1/50 max-lg:text-center">
             {item.description}
           </p>
 
-          <div className="mb-6 flex h-[5.5rem] items-center">
+          <div className="mb-6 flex h-[5.5rem] items-center max-lg:justify-center">
             {item.price && (
               <>
                 <div className="h3">$</div>

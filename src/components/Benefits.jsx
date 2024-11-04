@@ -5,6 +5,7 @@ import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
+
 const Benefits = () => {
   return (
     <Section id="features">
@@ -23,10 +24,10 @@ const Benefits = () => {
               }}
               key={item.id}
             >
-              <div className="relative z-2 flex min-h-[22rem] cursor-pointer flex-col p-[2.4rem] tracking-wider text-n-1 transition-all duration-300 ease-in-out active:scale-[102%] active:text-n-3">
+              <div className="relative z-2 flex min-h-[22rem] cursor-pointer flex-col p-[2.4rem] tracking-wider text-n-1 transition-all duration-200 ease-in-out active:scale-[102%] active:text-n-3">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
-                <div className="mt-auto flex items-center transition-all duration-300 ease-in-out hover:scale-105">
+                <div className="mt-auto flex items-center">
                   <img
                     src={item.iconUrl}
                     width={48}

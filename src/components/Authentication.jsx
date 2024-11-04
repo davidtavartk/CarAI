@@ -1,5 +1,5 @@
 import Modal from "react-modal";
-import cardImage from "../assets/benefits/card-1.svg";
+import cardImage from "/benefits/card-1.svg";
 import { GradientLight } from "./design/Benefits";
 import { useEffect, useState } from "react";
 Modal.setAppElement("#root");

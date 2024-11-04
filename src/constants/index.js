@@ -40,7 +40,6 @@ export const navigation = [
   },
 ];
 
-
 export const pricing = [
   {
     id: "0",
@@ -67,7 +66,8 @@ export const pricing = [
   {
     id: "2",
     title: "Tuning",
-    description: "Contact us to get AI source, so you can tune it to your needs",
+    description:
+      "Contact us to get AI source, so you can tune it to your needs",
     price: null,
     features: [
       "AI source for tuning. You will be able to modify our AI",
@@ -82,14 +82,14 @@ export const benefits = [
     id: "0",
     title: "Ask anything",
     text: "Lets users ask basic language prompts without having to know deep about cars.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "/benefits/card-1.svg",
     iconUrl: benefitIcon1,
   },
   {
     id: "1",
     title: "Choosing the Engine",
     text: "Our AI model will help you pick the right engine for your car for the best performance.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: "/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     light: true,
   },
@@ -97,14 +97,14 @@ export const benefits = [
     id: "2",
     title: "Personalized Colors",
     text: "Select the perfect color for your car. Consider trends, resale value, and how different colors affect maintenance.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: "/benefits/card-3.svg",
     iconUrl: benefitIcon3,
   },
   {
     id: "3",
     title: "Sleek Exterior Customization",
     text: "Transform your vehicle's look with innovative body kits that enhance aerodynamics and style.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: "/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     light: true,
   },
@@ -112,14 +112,14 @@ export const benefits = [
     id: "4",
     title: "Adaptive Interior Design",
     text: "Tell us about you interior preferences. AI will help you choose the best",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: "/benefits/card-5.svg",
     iconUrl: benefitIcon1,
   },
   {
     id: "5",
     title: "Personalized Driving Experience",
     text: "The AI learns your preferences over time, adjusting climate, seat position, and entertainment options for a tailored driving experience.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: "/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     light: true,
   },
